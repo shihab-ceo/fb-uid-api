@@ -1,0 +1,4 @@
+{
+  "functions": { "api/check.js": { "maxDuration": 30 } },
+  "rewrites": [{ "source": "/api/check-uids", "destination": "/api/check" }]
+}
